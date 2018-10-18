@@ -11,7 +11,7 @@ class Template extends React.Component {
 
     if (location.pathname === rootPath) {
       header = (
-        <h1
+        <h2
           style={{
             ...scale(1.5),
             marginBottom: rhythm(1.5),
@@ -28,11 +28,11 @@ class Template extends React.Component {
           >
             Gatsby Starter Blog
           </Link>
-        </h1>
+        </h2>
       )
     } else {
       header = (
-        <h3
+        <h2
           style={{
             fontFamily: 'Montserrat, sans-serif',
             marginTop: 0,
@@ -49,7 +49,7 @@ class Template extends React.Component {
           >
             Gatsby Starter Blog
           </Link>
-        </h3>
+        </h2>
       )
     }
     return (
